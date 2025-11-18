@@ -1,8 +1,11 @@
+import Tab from "../Tab";
+
 const Home = () => {
   return (
     <div id="content">
       <h2>About Me</h2>
       <p>
+        <Tab />
         Mentorship, technology, critical thought, and practical problem-solving
         are key areas of focus that have permeated my diverse background, which
         spans the humanities, risk management, computer science, and education.
@@ -20,6 +23,7 @@ const Home = () => {
       <br />
       <h2>About this Site</h2>
       <p>
+        <Tab />
         This site was developed by Peyton Bechard using TypeScript and React,
         and was inspired by a mash of retro, brutalist, and pop art styles of
         web design. The site was built as a part of the participation in the

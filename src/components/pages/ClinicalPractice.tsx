@@ -1,10 +1,13 @@
-import merrillsImage from "../../assets/Merrill's Principles Visual.png";
+import merrillsImage from "../../assets/merrill.png";
 
 const ClinicalPractice = () => {
   return (
     <div id="content">
       <h2>Clinical Practice</h2>
-      <h3>A Visual Representation of Merrill's Principles of Instruction</h3>
+      <h3>
+        A Visual Representation of Merrill's Principles of Instruction in the
+        Context of Secondary Computer Science
+      </h3>
       <img src={merrillsImage} alt="Merrill's Principles of Instruction" />
       <small>
         DeltaWorks. (2022, January 1). <em>School Study Education.</em> Pixabay.

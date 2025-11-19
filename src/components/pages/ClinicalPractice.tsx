@@ -1,3 +1,5 @@
+import { Suspense } from "react";
+import Loading from "../Loading";
 import merrillsImage from "../../assets/merrill.webp";
 
 const ClinicalPractice = () => {
@@ -8,7 +10,9 @@ const ClinicalPractice = () => {
         A Visual Representation of Merrill's Principles of Instruction in the
         Context of Secondary Computer Science
       </h3>
-      <img src={merrillsImage} alt="Merrill's Principles of Instruction" />
+      <Suspense fallback={<Loading />}>
+        <img src={merrillsImage} alt="Merrill's Principles of Instruction" />
+      </Suspense>
       <small>
         <strong>References</strong>
       </small>

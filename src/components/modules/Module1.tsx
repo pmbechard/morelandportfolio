@@ -56,6 +56,19 @@ const Module1 = () => {
         implementations in the classroom and help to ensure that I am meeting
         the expectations set out by the InTASC standards.
       </p>
+      <small>
+        <strong>References</strong>
+      </small>
+      <small>
+        Moreland University. (n.d.-a). Course Catalog & Candidate Handbook.
+        TEACH-NOW Graduate School of Education.
+        https://teachnowprogram.com/amazon/getS3File?file=https%3A%2F%2Fplatform-user-content.s3.us-west-2.amazonaws.com%2Factivity_resources%2FFINAL_Course_Catalog_and_Candidate_Handbook_2025_-_2026_8.11.25.pdf{" "}
+      </small>
+      <small>
+        Moreland University. (n.d.-b). InTASC Standards. TEACH-NOW Graduate
+        School of Education.
+        https://teachnowprogram.com/amazon/getS3File?file=https%3A%2F%2Fplatform-user-content.s3.us-west-2.amazonaws.com%2Factivity_resources%2FAt_a_Glance_INTASC_Standards.pdf{" "}
+      </small>
     </>
   );
 };

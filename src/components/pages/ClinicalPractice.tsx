@@ -10,6 +10,9 @@ const ClinicalPractice = () => {
       </h3>
       <img src={merrillsImage} alt="Merrill's Principles of Instruction" />
       <small>
+        <strong>References</strong>
+      </small>
+      <small>
         DeltaWorks. (2022, January 1). <em>School Study Education.</em> Pixabay.
         Retrieved November 18, 2025, from
         https://pixabay.com/photos/school-study-education-desk-6900381/.

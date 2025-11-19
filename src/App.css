@@ -131,7 +131,14 @@
 
 #content small {
   max-width: 50%;
-  text-wrap: wrap;
   display: block;
   margin: 10px auto 20px auto;
+  padding-left: 2.5em;
+  text-indent: -2.5em;
 }
+
+#content small:has(> strong) {
+  text-align: center;
+}
+
+/*TODO: Add responsive design for smaller screens*/

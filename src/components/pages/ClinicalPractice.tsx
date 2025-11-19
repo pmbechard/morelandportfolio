@@ -1,4 +1,4 @@
-import merrillsImage from "../../assets/merrill.png";
+import merrillsImage from "../../assets/merrill.webp";
 
 const ClinicalPractice = () => {
   return (

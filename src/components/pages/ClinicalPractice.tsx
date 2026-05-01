@@ -1,14 +1,17 @@
 import { Suspense } from "react";
 import Loading from "../Loading";
 import merrillsImage from "../../assets/merrill.webp";
+import articleImg from "../../assets/article.png";
+import confImg from "../../assets/conf.webp";
+import cohImg from "../../assets/coh.jpg";
+import tarImg from "../../assets/tar.webp";
 
 const ClinicalPractice = () => {
   return (
     <div id="content">
       <h2>Clinical Practice</h2>
       <h3>
-        A Visual Representation of Merrill's Principles of Instruction in the
-        Context of Secondary Computer Science
+        A Visual Representation of Merrill's Principles of Instruction in the Context of Secondary Computer Science
       </h3>
       <Suspense fallback={<Loading />}>
         <img src={merrillsImage} alt="Merrill's Principles of Instruction" />
@@ -17,22 +20,86 @@ const ClinicalPractice = () => {
         <strong>References</strong>
       </small>
       <small>
-        DeltaWorks. (2022, January 1). <em>School Study Education.</em> Pixabay.
-        Retrieved November 18, 2025, from
+        DeltaWorks. (2022, January 1). <em>School Study Education.</em> Pixabay. Retrieved November 18, 2025, from
         https://pixabay.com/photos/school-study-education-desk-6900381/.
       </small>
       <small>
-        Pappas, C. (2023, September 13).{" "}
-        <em>Merrill's principles of instruction: The definitive guide.</em>{" "}
-        eLearning Industry.
-        https://elearningindustry.com/merrills-principles-instruction-definitive-guide
+        Pappas, C. (2023, September 13). <em>Merrill's principles of instruction: The definitive guide.</em> eLearning
+        Industry. https://elearningindustry.com/merrills-principles-instruction-definitive-guide
       </small>
       <small>
-        The University of Iowa. (2017, September 29).{" "}
-        <em>Merrill's principles of instruction (MPI).</em> Current Students -
-        Tippie College of Business.
+        The University of Iowa. (2017, September 29). <em>Merrill's principles of instruction (MPI).</em> Current
+        Students - Tippie College of Business.
         https://students.tippie.uiowa.edu/tippie-resources/technology/instructional-design/models/merrill
       </small>
+      <hr></hr>
+      <h3>M8U9A1: Professional and Continuous Learning - Virtual Scavenger Hunt</h3>
+      <p>
+        <strong>
+          Get academic: Share a recently published academic article or journal in your subject area that you would like
+          to read and why.
+        </strong>
+        <img src={articleImg} alt="Academic article" />
+        Interesting and important to be considering the future development of LLMs like ChatGPT as a user and as a
+        teacher guiding students in their use.
+        <br />
+        <br />
+        <strong>
+          Develop professionally: Share an upcoming conference or academic event that you would like to participate in
+          and why.
+        </strong>
+        <img src={confImg} alt="Conference" />
+        Would like to learn more about how technology is being used at international schools in our region of the world.
+        <br />
+        <br />
+        <strong>
+          Build life skills: Host a scavenger hunt activity for your students on life skills or social-emotional
+          learning and take a picture of items collected by students.
+        </strong>
+        <br />
+        ...
+        <br />
+        <br />
+        <strong>
+          Create awareness: Implement an activity with students to overcome any one stereotype towards culture,
+          ethnicity, gender, or learning differences.
+        </strong>
+        <br />
+        Ask students to get different AI image generators to create images of "tech workers" and discuss results.
+        <br />
+        <br />
+        <strong>Create a memory: Take a picture with your cohort with any educational prop.</strong>
+        <img src={cohImg} alt="Cohort" />
+        <br />
+        <br />
+        <strong>
+          Find common ground: Show pictures of a hobby or interest that you share with a teacher colleague at your
+          school. (e.g. pictures of you and your colleague trekking)
+        </strong>
+        <img src={tarImg} alt="Tarantula" />
+        <br />
+        <br />
+        <strong>
+          Get social: Add a post on the Twitter hashtag #tncohort or on the Facebook Cohorts community page with one
+          important thing you learned during your clinical practice.
+        </strong>
+        <br />
+        No social media
+        <br />
+        <br />
+        <strong>
+          Share an achievement: Share the biggest learning challenge you faced in the program and how you overcame the
+          challenge.
+        </strong>
+        <br />
+        Taught myself programming and computer science from scratch, set a goal to get into Georgia Tech's online
+        program, made a long-term study guide based on entry requirements, and stuck to it.
+        <br />
+        <br />
+        <strong>Get personal: Share one professional ethic that you always live by.</strong>
+        <br />
+        There is balance in everything.
+      </p>
     </div>
   );
 };

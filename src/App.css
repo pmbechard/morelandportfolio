@@ -111,6 +111,10 @@
   margin: 0 auto;
 }
 
+hr {
+  margin: 40px;
+}
+
 #content p,
 #content h2,
 #content h3 {

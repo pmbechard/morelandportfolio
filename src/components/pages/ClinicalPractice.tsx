@@ -5,6 +5,7 @@ import articleImg from "../../assets/article.png";
 import confImg from "../../assets/conf.webp";
 import cohImg from "../../assets/coh.jpg";
 import tarImg from "../../assets/tar.webp";
+import scavImg from "../../assets/scav.jpg";
 
 const ClinicalPractice = () => {
   return (
@@ -57,7 +58,8 @@ const ClinicalPractice = () => {
           learning and take a picture of items collected by students.
         </strong>
         <br />
-        ...
+        <img src={scavImg} alt="Scavenger hunt" />
+        When asked to choose the animal that best represents their personality.
         <br />
         <br />
         <strong>

@@ -6,6 +6,8 @@ import confImg from "../../assets/conf.webp";
 import cohImg from "../../assets/coh.jpg";
 import tarImg from "../../assets/tar.webp";
 import scavImg from "../../assets/scav.jpg";
+import rubricImg from "../../assets/rubric.png";
+import studentWorkImg from "../../assets/student-project.png";
 
 const ClinicalPractice = () => {
   return (
@@ -101,6 +103,42 @@ const ClinicalPractice = () => {
         <strong>Get personal: Share one professional ethic that you always live by.</strong>
         <br />
         There is balance in everything.
+      </p>
+      <hr />
+      <h3>M8U12A3: Implementing Authentic and Performance Assessments</h3>
+      <p>
+        The Makerspace Project was successfully implemented as a culminating performance assessment that engaged
+        students in authentic, hands-on problem solving. Students demonstrated strong engagement throughout the unit,
+        particularly during the design and prototyping phases, where creativity and ownership of learning were most
+        evident. Many students were excited to work on self-selected, real-world problems, which increased motivation
+        and persistence. However, challenges arose around managing time, especially during iteration and revision
+        stages, and some students initially struggled with unfamiliar digital tools and open-ended expectations. Despite
+        these challenges, most students were able to produce meaningful solutions and articulate their design processes.
+        <br />
+        <img src={studentWorkImg} alt="Student Work" />
+        To support student growth, I explicitly guided students in using the rubric for both self-assessment and peer
+        feedback. Before major checkpoints, we unpacked rubric criteria together and discussed what A-level versus
+        B-level mastery looked like in practice. Students used this shared understanding to evaluate their own progress
+        and provide structured feedback to peers. This process helped students reflect more critically on their work and
+        identify areas for improvement. Peer assessment also encouraged collaboration and exposure to diverse ideas,
+        although some students required additional support to provide specific, constructive feedback rather than
+        general comments. <br />
+        In analyzing student achievement, students excelled in creativity, idea generation, and collaboration. Many
+        demonstrated originality and were able to develop innovative ideas that addressed real-world constraints.
+        However, some struggled with refining and evaluating their ideas, particularly in documenting their iterative
+        process. These challenges likely stemmed from limited prior experience with iteration and metacognitive
+        reflection. Students who exceeded expectations tended to engage more deeply in feedback cycles and were more
+        willing to revise and improve their work multiple times. <br />
+        <img src={rubricImg} alt="Rubric" />
+        The rubric overall was effective in clearly outlining expectations and aligning with project goals, but it could
+        be improved to better distinguish between levels of mastery. Some criteria were broad and may not have provided
+        enough specificity to guide student improvement. In future iterations, I would refine performance descriptors
+        with more concrete examples and expand A-level criteria to better capture higher-order thinking and innovation.
+        This would increase the rubric's validity and provide clearer guidance for both assessment and learning. <br />
+        Based on this reflection, two key improvements will be made. First, I will incorporate more structured
+        checkpoints focused on iteration and reflection to better support students in refining their ideas over time.
+        Second, I will provide targeted mini-lessons and guided practice on using specific digital tools earlier in the
+        unit to reduce technology-related barriers and allow students to focus more on problem solving and innovation.
       </p>
     </div>
   );

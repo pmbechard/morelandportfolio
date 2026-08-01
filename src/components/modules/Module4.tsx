@@ -1,3 +1,5 @@
+import vid from '../../assets/M4U4A2.mp4'
+
 const Module4 = () => {
   return (
     <>
@@ -49,6 +51,12 @@ const Module4 = () => {
         and giving students meaningful opportunities to make choices, I can build a classroom in which creativity
         strengthens both engagement and academic learning.
       </p>
+      <br />
+      <h2>U4A2: Creating a Positive, Information-Intensive Environment</h2>
+      <video width="560" height="315" src={vid} controls preload="metadata">
+        Your browser does not support the video tag.
+      </video>
+
     </>
   );
 };

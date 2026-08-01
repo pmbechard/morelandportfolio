@@ -1,4 +1,4 @@
-import vid from '../../assets/M4U4A2.mp4'
+import vid from '../../assets/M4u4a2 compressed.mp4'
 
 const Module4 = () => {
   return (
